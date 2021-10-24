@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/login.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>NOTFLIX - Inicia sesión</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html" class="active">NOTFLIX</a>
+            <a href="/pages/login.html">Iniciar sesión</a>
+            <a href="/pages/listings.html">Cartelera</a>
+            <a href="/pages/help.html">Ayuda</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="cuerpo bg-dark">
+        <h2>Inicia sesión</h2>
+        <form class="row needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="user" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="mail" name="email" placeholder="Email" required>
+                <div class="invalid-feedback">Ingrese un email válido</div>
+            </div>
+            <div class="col-md-8"></div>
+            <div class="col-md-4">
+                <label for="password" class="form-label">Contraseña:</label>
+                <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+            <div class="invalid-feedback">Ingrese una contraseña válida</div>
+            </div>
+            <div class="col-md-8"></div>
+                <div class="form-check">    
+                     <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Recuérdame
+                    </label>
+                </div>
+            <div class="col-md-9">    
+                <button class="btn btn-danger" type="submit">Iniciar sesión</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="data-footer">
+            <a href="tel:+080033312345" target="_blank"><i class="fas fa-phone-alt"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

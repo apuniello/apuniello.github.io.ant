@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>NOTFLIX - Ayuda</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html" class="active">NOTFLIX</a>
+            <a href="/pages/login.html">Iniciar sesión</a>
+            <a href="/pages/listings.html">Cartelera</a>
+            <a href="/pages/help.html">Ayuda</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="cuerpo bg-dark">
+        <h2>¿Necesitas ayuda?</h2>
+        <p> Contanos en que podemos ayudarte, con gusto lo haremos a la mayor brevedad posible</p>
+        <form class="row needs-validation" novalidate>
+            <div class="col-md-9">
+                <label for="validation01" class="form-label">Nombre y Apellido:</label>
+                <input type="text" class="form-control" id="validation01" placeholder="Nombre y Apellido"
+                    required>
+                <div class="invalid-feedback">Por favor, dejanos tu nombre</div>
+            </div>
+            <div class="col-md-9">
+                <label for="email" class="form-label">Email:</label>
+                <div class="input-group">
+                    <input type="email" class="form-control" id="email" placeholder="email@gmail.com" required>
+                    <div class="invalid-feedback">Por favor, revise el email ingresado</div>
+
+                </div>
+            </div>
+            <div class="col-md-400">
+                <label for="comment" class="form-label">Consulta:</label>
+                 <textarea class="form-control" id="comment" minlength="5" required></textarea> 
+            </div>
+            <div class="col-md-9">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">No soy un robot</label>
+                    <div class="invalid-feedback">Por favor, confirmanos que no sos un robot</div>
+                </div>
+                <div class="col-md-9">
+                    <button class="btn btn-danger" type="submit">Enviar</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="data-footer">
+            <a href="tel:+080033312345" target="_blank"><i class="fas fa-phone-alt"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+        </p>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
